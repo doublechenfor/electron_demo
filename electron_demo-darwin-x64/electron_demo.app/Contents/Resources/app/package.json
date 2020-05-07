@@ -1,0 +1,16 @@
+{
+    "name": "electron_demo",
+    "version": "1.0.0",
+    "main": "main.js",
+    "repository": "https://github.com/doublechenfor/electron_demo.git",
+    "author": "chenshuang_soleage@163.com",
+    "license": "MIT",
+    "scripts": {
+        "start": "electron .",
+        "package": "electron-packager . --name=Eledemo --platform=darwin --electron-version=1.4.15 --overwrite --ignore=node_modules --ignore=.gitignore"
+    },
+    "dependencies": {
+        "electron": "^8.2.5",
+        "electron-packager": "^14.2.1"
+    }
+}

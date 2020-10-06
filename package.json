@@ -10,7 +10,7 @@
         "package": "electron-packager . --name=Eledemo --platform=darwin --electron-version=1.4.15 --overwrite --ignore=node_modules --ignore=.gitignore"
     },
     "dependencies": {
-        "electron": "^8.2.5",
+        "electron": "^8.5.1",
         "electron-packager": "^14.2.1"
     }
 }
